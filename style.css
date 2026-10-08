@@ -1,0 +1,87 @@
+body {
+  background-color: orange;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+div{
+background-color: white;  
+color: black;
+text-align: justify;
+padding: 5%;
+}
+
+/* propriedade border-style -- */
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+
+.button1 {background-color: #04AA6D;} /* verde */
+.button2 {background-color: #008CBA;} /* Azul */
+.button3 {background-color: #f44336;} /* Vermelho */
+.button4 {background-color: #e7e7e7; color: black;} /* preto */
+.button5 {background-color: #555555;} /* preto */
+
+
+.btn-group .button:hover {
+  background-color: blue;
+}
+
+
+.btn-group {
+  display: flex;
+}
+
+img {
+  width: 15%;
+  height: 15%;
+  transition: width 2s, height 4s;
+}
+
+img:hover {
+  width: 50%;
+  height: 50%;
+}
+
+
+
+.fotos{
+  display: grid;
+  grid-template-columns: auto;
+  background-color: white;
+  padding: 5px;
+  gap: 5px;
+}
+ .cssgrid{
+    width: 30%;
+    height: 30%;
+}
